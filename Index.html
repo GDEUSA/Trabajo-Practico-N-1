@@ -4,27 +4,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
     <title>Trabajo Practico N°1</title>
+    <!--Enlace al CSS-->
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!--titulo mostrado en la pagina-->
     <header>
-      <h1><ins>Counter Strike 2</ins></h1>
+      <h1 class="Titulos"><ins>Counter Strike 2</ins></h1>
     </header>
-
+    <!--Estilos para textos sin enlaces CSS-->
+    <style>
+      body{
+      background-color: rgb(201, 164, 53);
+    }
+      p strong{
+        color: blue;
+      }
+    </style>
     <main>
+      
       <!--informacion q va a brindar-->
-      <h2 style="color: red;"><sub>Informacion del juego:</sub></h2>
-      <p>Counter-Strike 2 (CS2) es una actualización gratuita de Counter-Strike:
+      <h2 style="color: red;font-size: 35px;line-height: 0;"><sub>Informacion del juego:</sub></h2>
+      <p class="Texto"><strong>Counter-Strike 2 (CS2)</strong> es una actualización gratuita de Counter-Strike:
          Global Offensive (CS:GO) lanzada por Valve el 27 de septiembre de 2023,
           funcionando bajo el motor Source 2. Esta entrega principal reemplazó a
-          CS:GO con mejoras gráficas, mapas renovados, granadas de humo volumétricas 
+          <strong>CS:GO</strong> con mejoras gráficas, mapas renovados, granadas de humo volumétricas 
           e interactivas, y una arquitectura de servidores de "sub-ticks" para mayor
          precisión.</p> 
       <ul>
         <!--armas-->
-        <li><p><a href="armas.html"><strong>Armas que se usan</strong></a></p></li>
+        <li style="color: aqua;"><p><a href="armas.html"><strong style ="color: rgb(90, 2, 138);">Armas que se usan</strong></a></p></li>
         <!--mapas-->  
-       <li><p><a href="mapas.html"><strong>MAPAS competitivos</strong></a></p></li>
+       <li style="color: aqua;"><p><a href="mapas.html"><strong style ="color: rgb(90, 2, 138);">MAPAS competitivos</strong></a></p></li>
+       <!--rutina-->
+       <li style="color: aqua;"><p><a href="rutina.html"><strong style ="color: rgb(90, 2, 138);">Rutina de ejercicios</strong></a></p></li>
       </ul>   
     </main>
 
